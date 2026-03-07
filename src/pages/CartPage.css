@@ -1,0 +1,22 @@
+.cart {
+  padding: 60px;
+}
+
+.cart-item {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item button {
+  background: #ff4d79;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+}
