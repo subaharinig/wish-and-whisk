@@ -11,7 +11,7 @@ import {
   MapPin,
   Send
 } from "lucide-react";
-import logo from '../assets/logo.png'; // Import your logo
+import logo from '../assets/logo.jpg'; // Import your logo
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

@@ -8,7 +8,7 @@ import { CartProvider } from './context/CartContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/wish-and-whisk">
     <AuthProvider>
       <CartProvider>
         <App />
