@@ -32,8 +32,8 @@ export default function Header() {
       <div className="header-container">
         <Link to="/" className="logo">
           <motion.div whileHover={{ scale: 1.05 }} className="logo-wrapper">
-            <img src={logo} alt="Wish & Whip" className="logo-image" />
-            <span className="logo-text">Wish & Whip</span>
+            <img src={logo} alt="Wish and Whisk" className="logo-image" />
+            <span className="logo-text">Wish and Whisk</span>
           </motion.div>
         </Link>
 

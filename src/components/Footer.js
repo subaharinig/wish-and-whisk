@@ -50,8 +50,8 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="footer-section footer-brand">
             <div className="footer-logo-wrapper">
-              <img src={logo} alt="Wish & Whip" className="footer-logo-image" />
-              <h3 className="footer-logo-text">Wish & Whip</h3>
+              <img src={logo} alt="Wish and Whisk" className="footer-logo-image" />
+              <h3 className="footer-logo-text">Wish and Whisk</h3>
             </div>
             <p className="footer-tagline">
               Customize your cravings, create your masterpiece. Where every celebration becomes unforgettable.
@@ -144,7 +144,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="footer-bottom">
           <p className="copyright">
-            © {currentYear} Wish & Whip. All Rights Reserved.
+            © {currentYear} Wish and Whisk. All Rights Reserved.
           </p>
           <div className="footer-bottom-links">
             <Link to="/terms">Terms of Service</Link>
