@@ -1,7 +1,7 @@
-import React, { useState, useMemo, useCallback } from 'react';
-import { ShoppingCart, RotateCcw, Trash2, Star, Award, Gift, Zap, Lock, Volume2 } from 'lucide-react';
+import React, { useState, useMemo} from 'react';
+import { ShoppingCart, RotateCcw, Trash2, Star, Award, Gift, Zap } from 'lucide-react';
 import './CustomizePage.css';
-
+    
 const TYPES = {
   BASE: 'BASE',
   FLAVOR: 'FLAVOR',
@@ -82,7 +82,7 @@ const CakePreview = ({ layers }) => {
     </div>
   );
 };
-
+ 
 export default function CakeCustomizer() {
   const [layers, setLayers] = useState([]);
   const [dragOver, setDragOver] = useState(false);
