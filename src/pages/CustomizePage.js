@@ -1,7 +1,7 @@
 import React, { useState, useMemo} from 'react';
 import { ShoppingCart, RotateCcw, Trash2, Star, Award, Gift, Zap } from 'lucide-react';
 import './CustomizePage.css';
-    
+      
 const TYPES = {
   BASE: 'BASE',
   FLAVOR: 'FLAVOR',
