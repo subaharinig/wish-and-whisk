@@ -10,6 +10,7 @@ const TYPES = {
 };
 
 
+
 const DraggableItem = ({ item, type, onDragStart }) => {
   return (
     <div
